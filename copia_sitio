@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Actuaría Tu Futuro</title>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0" />
+    </head>
+    <body>
+        <div role="complementary" aria-label="Información institucional">
+            <p>
+                <a href="tel:5556284028">5628 4028</a>
+                <a ref="mailto:informes@itam.mx">informesitam.mx</a>
+            </p>
+
+        </div>
+
+        <header id="inicio">
+            <h1>Tu fututo</h1>
+            <nav aria-label="Navegación principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="https://carreras.itam.mx/licenciatura-actuaria/que-estudia-un-actuario/">¿Qué estudiarás?</a></li>
+                    <li><a href="#futuro">Tu futuro</a></li>
+                    <li><a href="https://carreras.itam.mx/licenciatura-actuaria/profesores/">Profesores</a></li>
+                    <li><a href="https://carreras.itam.mx/licenciatura-actuaria/videos/">Videos</a></li>
+                    
+                </ul>
+            </nav>
+            <img 
+            src="alumnos-graduados.jpg"
+            alt="Imagen de alumnos graduados"
+            />
+        </header>
+
+        <main>
+            <section id="que-hace-un-actuario">
+                <h2>¿qué hace un actuario?</h2>
+                <p>
+                    Un actuario identifica, evalúa y gestiona riesgos utilizando datos, 
+                    matemáticas y estadística. Es clave en sectores como los seguros, los 
+                    fondos de pensiones y los mercados financieros. También puede colaborar 
+                    en la consultoría y en el sector público para diseñar políticas que 
+                    mejoren la sostenibilidad financiera.
+                </p>
+                <a href="https://www.youtube.com/watch?v=mk_FJjhu1b0&t=1s" target="_blank"></a>
+                <img 
+                src="youtube.jpg"
+                alt="Portada del video de la entrevista a exalumna"
+                />
+                <p>
+                    Conoce la experiencia profesional de una egresada de Actuaría y cómo 
+                    aplica sus conocimientos en el mundo laboral.
+                </p>
+            </section>
+
+            <section id="perfil-de-egreso">
+                <h2>Perfil de egreso de Actuaría</h2>
+                <p>
+                    Como egresado de la Licenciatura en Actuaría del ITAM serás un experto 
+                    en el manejo de herramientas estadísticas y la gestión de riesgos. 
+                    Estarás capacitado para diseñar soluciones innovadoras en sectores 
+                    clave como los seguros, pensiones y la gestión de riesgos financieros.
+                </p>
+                <img
+                src="perfil-egreso.jpg"
+                alt="Alumnos conversando y sonriendo"
+                />
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades que desarrollarás al estudiar Actuaría</h2>
+                <p>
+                    La formación en Actuaría del ITAM brinda a sus egresados las habilidades 
+                    necesarias para destacar en un amplio espectro de industrias. Con una sólida 
+                    base en análisis de riesgos, matemáticas y estadística, los actuarios del 
+                    ITAM son altamente competitivos y pueden acceder a oportunidades laborales en 
+                    el sector financiero, asegurador y más.
+                </p>
+                <article>
+                    <h3>Seguros y pensiones</h3>
+                    <p>
+                        <strong>
+                            Evaluarás riesgos asociados a la vida y salud, 
+                            diseñando productos que aseguren la estabilidad 
+                            patrimonial de las personas.
+                        </strong>
+                    </p>
+                </article>
+                <article>
+                    <h3>Consultoría actuarial</h3>
+                    <p>
+                        <strong>
+                            Ofrecerás asesoría cuantitativa para optimizar 
+                            decisiones empresariales y políticas públicas.
+                        </strong>
+                    </p>
+                </article>
+                <article>
+                    <h3>Estadística avanzada</h3>
+                    <p>
+                        <strong>
+                            Aprenderás a analizar tanto grandes volúmenes 
+                            de datos como bases de datos pequeñas, utilizando 
+                            herramientas cuantitativas para predecir eventos 
+                            futuros con alta precisión.
+                        </strong>
+                    </p>
+                </article>
+                <article>
+                    <h3>Modelos financieros</h3>
+                    <p>
+                        <strong>
+                            Desarrollarás modelos matemáticos que predicen 
+                            comportamientos en los mercados financieros y ayudarás
+                            a las empresas a tomar decisiones estratégicas.
+                        </strong>
+                    </p>
+                </article>
+                <article>
+                    <h3>Gestión de riesgos</h3>
+                    <p>
+                        <strong>
+                            Te especializarás en identificar y mitigar 
+                            riesgos financieros, asegurando la sostenibilidad 
+                            de empresas y proyectos.
+                        </strong>
+                    </p>
+                </article>
+            </section>
+
+            <section id="titulacion">
+                <h2>Opciones de titulación</h2>
+                <img 
+                src="estudiante-sonriendo.jpg"
+                alt="Estudiante sonriendo y señalando las opciones de titulación"
+                />
+                <p>
+                    Como estudiante de la Licenciatura en Actuaría del ITAM, 
+                    tienes varias opciones de titulación:
+                </p>
+                <article>
+                    <h3>1.Tesis de investigación</h3>
+                    <p>
+                        <strong>
+                            Desarrollarás un documento de investigación profunda 
+                            con la asesoría de un profesor.
+                        </strong>
+                    </p>
+                </article>
+                <article>
+                    <h3>2.Tesina</h3>
+                    <p>
+                        <strong>
+                            Trabajo de investigación aplicado sobre la solución 
+                            a un problema concreto.
+                        </strong>
+                    </p>
+                </article>
+                <article>
+                    <h3>3.Exámenes SOA/CAS</h3>
+                    <p>
+                        <strong>
+                            Certificación internacional en modelación y 
+                            administración de riesgos.
+                        </strong>
+                    </p>
+                </article>
+                <article>
+                    <h3>4.Examen CFA</h3>
+                    <p>
+                        <strong>
+                            Certificación en gestión de portafolios y 
+                            análisis financiero.
+                        </strong>
+                    </p>
+                </article>
+            </section>
+
+            <section id="trabajo">
+                <h2>¿Dónde trabaja un actuario</h2>
+                <img
+                src="actuario-lentes.jpg"
+                alt="Actuario con lentes sonriendo"
+                />
+                <p>Los actuarios trabajan en diversos sectores:</p>
+                <ul>
+                    <li>Sector asegurador</li>
+                    <li>Fondos de pensiones</li>
+                    <li>Mercados financieros</li>
+                    <li>Consultoría</li>
+                    <li>Sector público</li>
+                </ul>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div>
+                <img
+                src="logo-itam.jpg"
+                alt="Logotipo del ITAM"
+                />
+                <p>
+                    La Licenciatura en Actuaría del ITAM está diseñada para jóvenes 
+                    interesados en desarrollar habilidades estadísticas para analizar 
+                    y gestionar riesgos, aportando soluciones estratégicas a problemas 
+                    complejos en diversos sectores.
+                </p>
+            </div>
+
+            <div>
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="https://carreras.itam.mx/licenciatura-actuaria/que-estudia-un-actuario/">¿Qué estudiarás?</a></li>
+                    <li><a href="#futuro">Tu futuro</a></li>
+                    <li><a href="https://carreras.itam.mx/licenciatura-actuaria/profesores/">Profesores</a></li>
+                    <li><a href="https://carreras.itam.mx/licenciatura-actuaria/videos/">Videos</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Direccióin</h3>
+                <p>
+                    Rio Hondo No 1
+                    Col Progreso Tizapán
+                    CP 01080 Alc Álvaro Obregón
+                    Ciudad de México
+                </p>
+            </div>
+
+            <div>
+                <h3>Contacto</h3>
+                <p>
+                    <a ref="mailto:informes@itam.mx">informesitam.mx</a>
+                    <a href="tel:5556284028">5628 4028</a>  
+                </p>
+
+            </div>
+        </footer>
+    </body>
+</html>
