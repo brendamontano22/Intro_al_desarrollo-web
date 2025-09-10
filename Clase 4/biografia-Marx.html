@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Biografía Karl Marx</title>
+        <style>
+            :root{
+                --fondo:#620404;
+                --texto:#ffffff;
+                --texto-sec:#f1bbbb;
+                --header:#abb605;
+                --link:#f8e009;
+            }
+            body{
+                margin: 10px 20px;
+                padding-top: 70px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                background: var(--fondo);
+                color: var(--texto);
+                line-height: 1.5;
+            }
+            h1{margin:10px;}
+            header{
+                position: fixed; top: 0; width: 100%;
+                background: var(--header);
+                color: var(--texto);
+                border-bottom: 1px solid rgba(247, 209, 104, 0.2);
+                z-index:1000;
+            }
+            section{
+                background:rgba(238, 24, 24, 0.05);
+                scroll-margin-top: 80px;
+                border-radius: 8px;
+                padding:1rem;
+                margin-bottom: 1.5rem;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            }
+            #vida{
+                border: 2px solid #ff0000;
+            }
+            .obras{
+                border: 2px dotted #a6bc02;
+            }
+            .pensamiento{
+                border: 2px solid #ff0000;
+            }
+            .importancia{
+                border: 2px dotted #a6bc02;
+            }
+            .nav{
+                display: flex;
+                justify-content: center;
+                padding: .85rem 0;
+            }
+            .menu{
+                display: flex;
+                gap: 0.75rem;
+            }
+            .menu a{
+                text-decoration: none;
+                color: var(--texto);
+                padding: .4rem .6rem;
+                border-radius: .5rem;
+            }
+            .menu a:hover{
+                background: var(--link);
+                color: #ffffff;
+                text-decoration: underline;
+            }
+            .highlight{
+                color: var(--texto-sec);
+                font-weight: 600;
+                text-decoration: underline;
+            }
+            .obra{
+                margin-bottom: 1rem;
+                padding: 0.5rem;
+                border-left: 4px solid var(--link);
+                background: rgba(0,0,0,0.1);
+            }
+            .year{
+                color: var(--texto-sec);
+                font-weight: 600;
+            }
+            .noticias{
+                border: 2px solid var(--link);
+            }
+            footer{
+                text-align: center;
+                padding: 1rem;
+                margin-top: 2rem;
+                background: var(--header);
+                color: var(--texto);
+                border-top: 2px solid var(--link);
+            }
+            @media (max-width: 700px){
+                section{
+                    padding: 0.5rem;
+                }
+                h1{
+                    font-size: 1.8rem;
+                }
+            }
+            @media(max-width:300px){
+                body{
+                    font-size: 0.85rem;
+                }
+                h1{
+                    font-size: 1.5rem;
+                }
+            }
+            @media(max-width:600px){
+                .ocultar{
+                    display: none;
+                }
+            }
+            .linea{
+                border: 0;
+                border-top: 2px dotted var(--link);
+                margin: 1rem 0;
+            }
+            @media(max-width:700px){
+                section{
+                    padding:0.5rem;
+                    background: #03076f;
+                }
+                h1{
+                    font-size: 1.8rem;
+                }
+            }
+            @media(max-width: 300px){
+                body{
+                    font-size: 0.85rem;
+                }
+                h1{
+                    font-size: 1.5rem;
+                }
+                section{
+                    background: #0d7010;
+                }
+
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="nav">
+                <nav class="menu">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#vida">Vida</a>
+                    <a href="#obras">Obras</a>
+                    <a href="#pensamiento">Pensamiento</a>
+                    <a href="#importancia">Importancia</a>
+                    <a href="https://www.youtube.com/watch?v=zZuE419UB3g" target="_blank">Video</a>
+                    <a href="#noticias">Noticias</a>
+                </nav>
+            </div>
+        </header>
+
+        <h1 id="inicio">Karl Marx</h1>
+
+        <main>
+            <section id="vida" class="vida">
+                <h2>Vida personal</h2>
+                <div>
+                    <p>
+                        Karl Marx nació en Tréveris, Alemania, en 1818, en el seno de una familia de clase media. 
+                        Desde joven mostró interés por la filosofía y las letras, lo que lo llevó a estudiar en distintas 
+                        universidades. En 1843 contrajo matrimonio con Jenny von Westphalen, su compañera de vida y madre 
+                        de sus siete hijos. La familia atravesó serias dificultades económicas, especialmente durante los 
+                        años que Marx vivió en Londres, aunque contó con el apoyo constante de Friedrich Engels. Pese a las 
+                        privaciones, mantuvo una vida dedicada a la investigación y la escritura, combinando sus 
+                        responsabilidades familiares con su vocación intelectual y política.
+                    </p>
+                    <img src="marx-vida.jpg" alt="Fotografía de Karl Marx en blanco y negro" width="300">
+                </div>
+            </section>
+
+            <section id="obras" class="obras">
+                <h2>Obras principales</h2>
+                <div>
+                    <p>
+                        A lo largo de su vida, Karl Marx escribió con la intención de comprender 
+                        y cambiar la realidad que lo rodeaba. Sus textos surgieron tanto de la reflexión 
+                        teórica como de su compromiso con las luchas sociales de su tiempo, y con el paso 
+                        de los años se convirtieron en obras fundamentales para entender la política y la 
+                        economía modernas.
+                    </p>
+                    <ul>
+                        <li>La ideología alemana (1846)</li>
+                        <li>El manifiesto comunista (1848)</li>
+                        <li>El capital (1867)</li>
+                    </ul>
+
+                    <article class="obra">
+                        <h3>La ideología alemana <span class="year">(1846)</span></h3>
+                        <p>
+                            En una de sus primeras colaboraciones con Engels, Marx presentó la idea del 
+                            materialismo histórico y criticó a los jóvenes hegelianos. Aunque el texto 
+                            no vio la luz en su tiempo, hoy se reconoce como una pieza clave para entender 
+                            sus primeros planteamientos.
+                        </p>
+                    </article>
+                    <hr class="linea">
+
+                    <article class="obra">
+                        <h3>El manifiesto comunista <span class="year">(1848)</span></h3>
+                        <p>
+                            En esta obra breve y contundente, Marx y Engels hicieron un llamado a los trabajadores 
+                            del mundo a organizarse frente a la explotación capitalista. Su estilo directo y su 
+                            mensaje de lucha lo convirtieron en uno de los textos políticos más influyentes de la 
+                            historia.
+                        </p>
+                    </article>
+                    <hr class="linea">
+
+                    <article class="obra">
+                        <h3>El capital <span class="year">(1867)</span></h3>
+                        <p>
+                            Con un análisis profundo del sistema económico, Marx explicó el funcionamiento del 
+                            capitalismo y sus contradicciones internas. Esta obra se convirtió en su legado teórico 
+                            más importante y en un referente para el estudio crítico de la economía.
+                        </p>
+                    </article>
+
+
+                    <img src="capital-marx.jpg" alt="Imagen de El Capital" width="250">
+                </div>
+            </section>
+
+            <section id="pensamiento" class="pensamiento">
+                <h2>Pensamiento y movimiento político</h2>
+                <div>
+                    <p>
+                        El pensamiento político de Karl Marx giró en torno a la crítica del capitalismo y a la convicción 
+                        de que la historia se explica por la lucha de clases. Junto con Friedrich Engels elaboró el materialismo 
+                        histórico, teoría que sostiene que las estructuras económicas determinan en gran medida la organización 
+                        social y política. A partir de estas ideas impulsó el socialismo científico, que buscaba una sociedad sin 
+                        clases y con propiedad común de los medios de producción. Su influencia trascendió la teoría: inspiró 
+                        sindicatos, partidos políticos y movimientos obreros que marcaron la vida política de Europa y del mundo 
+                        en los siglos XIX y XX.
+                    </p>
+                    <img src="lucha-marx.jpg" alt="Imagen que representa la lucha de clases" width="250">
+                </div>
+            </section>
+
+            <section id="importancia" class="importancia">
+                <h2>Trascendencia histórica</h2>
+                <div>
+                    <p>
+                        La trascendencia histórica de Karl Marx se refleja en la forma en que sus ideas transformaron 
+                        la manera de analizar la sociedad y la economía. Su crítica al capitalismo, basada en conceptos 
+                        como la <span class= "highlight">plusvalía</span>, mostró los mecanismos mediante los cuales se concentra la riqueza y se reproduce 
+                        la desigualdad. Al exponer que el trabajador produce más valor del que recibe en salario, Marx 
+                        proporcionó una herramienta teórica fundamental para los movimientos obreros y para el desarrollo 
+                        del socialismo científico. Estas aportaciones no solo marcaron el pensamiento político de su época, 
+                        sino que continúan siendo objeto de debate y estudio en la actualidad.
+                    </p>
+                    <ol>
+                        <li>Teoría del materialismo histórico</li>
+                        <li>Crítica al capitalismo</li>
+                        <li>Concepto de plusvalía</li>
+                        <li>Formulación del socialismo científico</li>
+                        <li>Influencia en movimientos sociales y políticos</li>
+                    </ol>
+                    <img src="estatua-marx.jpg" alt="Imagen de la estatua de Marx" width="250" class="ocultar">
+                </div>
+            </section>
+
+            <section id="noticias" class="noticias">
+                <h2>Noticias</h2>
+                <div>
+                    <p>Suscríbete para recibir noticias y más información sobre Karl Marx directamente en 
+                        tu correo.
+                    </p>
+                    <form>
+                        <label for="correo">Ingresa tu correo electrónico:</label><br>
+                        <input id="correo" name="correo" type="email" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Página realizada por Brenda Montaño Oseguera. Otoño 2025.</p>
+        </footer>
+
+    </body>
+</html>
